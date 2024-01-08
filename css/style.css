@@ -160,6 +160,57 @@ h3 {
   margin-top: 40px;
 }
 
+/* Fetures Section */
+.futures-container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.futures-item > .section-subtitle {
+  margin-bottom: 15px;
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.futures-item > .section-title {
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  color: #070211;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.futures-item > .future-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.future-image {
+  /* width: 364.844px;
+  height: 364.844px; */
+  background-color: #fff;
+  border: 10px solid #f00;
+  border-radius: 50%;
+}
+.future-image img {
+  padding: 25px;
+}
+.futures-item > .future-year-heading {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 /* Portfolio Section Style */
 .section-heading > .section-subtitle {
   color: #f00;
@@ -263,7 +314,7 @@ footer {
   margin-bottom: 50px;
 }
 .footer-content > hr {
-  background: red;
+  background: rgba(255, 255, 255, 0.15);
 }
 .top-content p {
   color: #fff;
