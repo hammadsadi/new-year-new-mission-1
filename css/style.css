@@ -91,12 +91,12 @@ h3 {
   margin-bottom: 48px;
 }
 .offer-content-img {
-  width: 800px;
+  width: 700px;
   height: 500px;
   text-align: center;
   margin: auto;
 }
-.offer-content-img {
+.offer-content-img img {
   width: 100%;
 }
 
@@ -219,6 +219,55 @@ h3 {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.futures-item > .future-year-description {
+  margin: 15px 0px 30px 0px;
+}
+
+/* Holydays Section */
+.holydays-section-heading {
+  text-align: center;
+}
+.holydays-section-heading h5 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.holydays-section-heading h3 {
+  color: #070211;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 800;
+}
+.holydays-section-heading > .holydays-text {
+  color: #f00;
+}
+.holydays-section-heading > .holydays-description {
+  padding: 0px 250px;
+  margin: 20px 0px 60px 0px;
+}
+
+.holydays-content {
+  display: flex;
+  background-image: url("/images/Rectangle2.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  justify-content: start;
+  align-items: center;
+}
+.holydays-item {
+  position: relative;
+}
+.holydays-item > .discount-image {
+  position: absolute;
+  left: -149px;
+  top: -160px;
+}
+.holydays-item > .discount-female {
+  margin-top: -215px;
 }
 
 /* Portfolio Section Style */
