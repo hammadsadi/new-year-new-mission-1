@@ -40,8 +40,9 @@ h3 {
   background-position: bottom center;
   margin-top: 50px;
   position: relative;
+  /* z-index: -1; */
 }
-/* .banner-image::after {
+/* .banner-image::before {
   content: "";
   background: linear-gradient(rgba(3, 3, 3, 20), rgba(255, 0, 0, 0) 70.71%);
   position: absolute;
@@ -252,7 +253,7 @@ h3 {
 
 .holydays-content {
   display: flex;
-  background-image: url("/images/Rectangle2.png");
+  background-image: url("../images/Rectangle2.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   justify-content: start;
